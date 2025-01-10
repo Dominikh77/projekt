@@ -1,0 +1,61 @@
+Egy iskolai infó terem:
+-Tartalmaz:
+.2 Router
+.2 Switch
+.12 Számítógép
+
+Fizikai top:
+-Csillag
+
+Logiki top:
+Három hálózat:
+172.16.0.0/16
+Gateway:172.16.0.1
+-PC0 FastEthernet0/1 172.16.0.11 255.255.0.0
+-Sw1 Vlan1 172.16.0.3 255.255.0.0
+-Server FastEthernet0 172.16.0.10 255.255.0.0 
+
+2:192.168.0.0/30
+-R1 GigabitEthernet 192.168.0.1 255.255.255.252
+-R2 GigabitEthernet 192.168.0.2 255.255.255.252
+
+3:192.168.2.0/24
+Gateway:192.168.2.1
+-PC1 FastEthernet0/1 192.168.2.14 255.255.255.0
+-PC2 FastEthernet0/2 192.168.2.15 255.255.255.0
+-PC3 FastEthernet0/3 192.168.2.16 255.255.255.0
+-PC4 FastEthernet0/4 192.168.2.17 255.255.255.0
+-PC5 FastEthernet0/5 192.168.2.18 255.255.255.0
+-PC6 FastEthernet0/6 192.168.2.19 255.255.255.0
+-PC7 FastEthernet0/7 192.168.2.20 255.255.255.0
+-PC8 FastEthernet0/8 192.168.2.21 255.255.255.0
+-PC9 FastEthernet0/9 192.168.2.22 255.255.255.0
+-PC10 FastEthernet0/10 192.168.2.23 255.255.255.0
+-PC11 FastEthernet0/11 192.168.2.24 255.255.255.0
+-Sw2 Vlan1 192.168.2.13 255.255.255.0
+
+4:192.168.1.0/24
+-WRT300N ?
+-AP ?
+-Printer ?
+-Switch ? 
+
+
+2Ruoter:https://www.secureitstore.com/1941W.asp 551688,09Ft 2x
+2Switch:https://www.router-switch.com 378,100Ft 2x
+12számítógép:
+-CPU: Intel Core i5-14600K 110490Ft x12
+-Alaplap: GIGABYTE H610M H V3 DDR4 29990Ft x12
+-RAM: Kingston FURY 8GB DDR4 3200MHz 9090Ft x12
+-Gépház: EVOLVEO M2: 14190Ft x12
+-Tápegység: EVOLVEO FX 450 12690Ft x12
+-SSD: ADATA Ultimate SU650 SSD 240GB 6290Ft x12
+-Monitor:23,8" ASUS VA24EHF 35890Ft x12
+-Egér-Billentyűzet: Logitech Wireless Combo MK235 9990Ft x12
+-2743440Ft
+
+ábrázolás MDF IDF ?
+
+ena pass:cisco
+ena sec:class
+username admin pass admin
